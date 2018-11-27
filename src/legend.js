@@ -15,7 +15,7 @@ import { getColor, getFormatter } from './utils';
 /**
  * A legend specifically designed for the WooCommerce admin charts.
  */
-class Legend extends Component {
+class D3Legend extends Component {
 	constructor() {
 		super();
 
@@ -122,7 +122,7 @@ class Legend extends Component {
 	}
 }
 
-Legend.propTypes = {
+D3Legend.propTypes = {
 	/**
 	 * Additional CSS classes.
 	 */
@@ -158,8 +158,8 @@ Legend.propTypes = {
 	totalLabel: PropTypes.string,
 };
 
-Legend.defaultProps = {
+D3Legend.defaultProps = {
 	legendDirection: 'row',
 };
 
-export default Legend;
+export default D3Legend;

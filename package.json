@@ -1,6 +1,6 @@
 {
   "name": "react-d3-chart",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Simple D3 Chart for React",
   "main": "build/index.js",
   "license": "MIT",
