@@ -3,12 +3,12 @@ Simple line and bar charts using [D3js](https://d3js.org/) for [React](https://r
 
 ## Installation
 ```
-npm install --save react-d3-chart
+npm install --save a8c-d3-chart
 ```
 
 ## Usage
 ```jsx
-import { D3Chart } from 'react-d3-chart';
+import { D3Chart } from 'a8c-d3-chart';
 
 const data =  [
 	{
