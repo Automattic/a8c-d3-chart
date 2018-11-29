@@ -5,7 +5,7 @@
  */
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { Component, createRef } from 'react';
+import { Component, createRef } from '@wordpress/element';
 import { isEmpty, isEqual } from 'lodash';
 import { select as d3Select } from 'd3-selection';
 

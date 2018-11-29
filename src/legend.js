@@ -3,7 +3,7 @@
  * External dependencies
  */
 import classNames from 'classnames';
-import { Component, createRef } from 'react';
+import { Component, createRef } from '@wordpress/element';
 import PropTypes from 'prop-types';
 
 /**

@@ -4,7 +4,7 @@
  * External dependencies
  */
 import { isEmpty, isEqual } from 'lodash';
-import { Component, createRef } from 'react';
+import React, { Component, createRef } from '@wordpress/element';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { timeFormat as d3TimeFormat, utcParse as d3UTCParse } from 'd3-time-format';
